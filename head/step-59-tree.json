@@ -1,0 +1,247 @@
+{
+  "root": {
+    "actions": [],
+    "id": "",
+    "activity": "AboutActivity",
+    "type": "android.widget.FrameLayout",
+    "positionInParent": 0,
+    "description": "android.widget.FrameLayout @ 0",
+    "box": {
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 1794
+    },
+    "text": "",
+    "children": [
+      {
+        "actions": [],
+        "id": "",
+        "activity": "AboutActivity",
+        "type": "android.widget.LinearLayout",
+        "positionInParent": 0,
+        "description": "android.widget.LinearLayout @ 0",
+        "box": {
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1794
+        },
+        "text": "",
+        "children": [
+          {
+            "actions": [],
+            "id": "",
+            "activity": "AboutActivity",
+            "type": "android.widget.FrameLayout",
+            "positionInParent": 0,
+            "description": "android.widget.FrameLayout @ 0",
+            "box": {
+              "left": 0,
+              "top": 63,
+              "width": 1080,
+              "height": 1731
+            },
+            "text": "",
+            "children": [
+              {
+                "actions": [],
+                "id": "com.avjindersinghsekhon.minimaltodo:id/action_bar_root",
+                "activity": "AboutActivity",
+                "type": "android.widget.LinearLayout",
+                "positionInParent": 0,
+                "description": "android.widget.LinearLayout @ com.avjindersinghsekhon.minimaltodo:id/action_bar_root",
+                "box": {
+                  "left": 0,
+                  "top": 63,
+                  "width": 1080,
+                  "height": 1731
+                },
+                "text": "",
+                "children": [
+                  {
+                    "actions": [],
+                    "id": "android:id/content",
+                    "activity": "AboutActivity",
+                    "type": "android.widget.FrameLayout",
+                    "positionInParent": 0,
+                    "description": "android.widget.FrameLayout @ android:id/content",
+                    "box": {
+                      "left": 0,
+                      "top": 63,
+                      "width": 1080,
+                      "height": 1731
+                    },
+                    "text": "",
+                    "children": [
+                      {
+                        "actions": [],
+                        "id": "",
+                        "activity": "AboutActivity",
+                        "type": "android.widget.LinearLayout",
+                        "positionInParent": 0,
+                        "description": "android.widget.LinearLayout @ 0",
+                        "box": {
+                          "left": 0,
+                          "top": 63,
+                          "width": 1080,
+                          "height": 1731
+                        },
+                        "text": "",
+                        "children": [
+                          {
+                            "actions": [],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/toolbar",
+                            "activity": "AboutActivity",
+                            "type": "android.view.ViewGroup",
+                            "positionInParent": 0,
+                            "description": "android.view.ViewGroup @ com.avjindersinghsekhon.minimaltodo:id/toolbar",
+                            "box": {
+                              "left": 0,
+                              "top": 63,
+                              "width": 1080,
+                              "height": 147
+                            },
+                            "text": "",
+                            "children": [
+                              {
+                                "actions": [
+                                  "CLICK"
+                                ],
+                                "id": "",
+                                "activity": "AboutActivity",
+                                "type": "android.widget.ImageButton",
+                                "positionInParent": 0,
+                                "description": "android.widget.ImageButton @ 0",
+                                "box": {
+                                  "left": 0,
+                                  "top": 63,
+                                  "width": 147,
+                                  "height": 147
+                                },
+                                "text": ""
+                              },
+                              {
+                                "actions": [],
+                                "id": "",
+                                "activity": "AboutActivity",
+                                "type": "android.widget.TextView",
+                                "positionInParent": 0,
+                                "description": "android.widget.TextView @ 0",
+                                "box": {
+                                  "left": 157,
+                                  "top": 101,
+                                  "width": 192,
+                                  "height": 71
+                                },
+                                "text": "Minimal"
+                              }
+                            ]
+                          },
+                          {
+                            "actions": [],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/aboutImageView",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.ImageView",
+                            "positionInParent": 0,
+                            "description": "android.widget.ImageView @ com.avjindersinghsekhon.minimaltodo:id/aboutImageView",
+                            "box": {
+                              "left": 408,
+                              "top": 341,
+                              "width": 263,
+                              "height": 263
+                            },
+                            "text": ""
+                          },
+                          {
+                            "actions": [],
+                            "id": "",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.TextView",
+                            "positionInParent": 0,
+                            "description": "android.widget.TextView @ 0",
+                            "box": {
+                              "left": 0,
+                              "top": 604,
+                              "width": 1080,
+                              "height": 85
+                            },
+                            "text": "Minimal"
+                          },
+                          {
+                            "actions": [],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/aboutVersionTextView",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.TextView",
+                            "positionInParent": 1,
+                            "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/aboutVersionTextView",
+                            "box": {
+                              "left": 0,
+                              "top": 700,
+                              "width": 1080,
+                              "height": 51
+                            },
+                            "text": "Version: 1.2"
+                          },
+                          {
+                            "actions": [],
+                            "id": "",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.TextView",
+                            "positionInParent": 2,
+                            "description": "android.widget.TextView @ 2",
+                            "box": {
+                              "left": 0,
+                              "top": 793,
+                              "width": 1080,
+                              "height": 71
+                            },
+                            "text": "Made by Avjinder"
+                          },
+                          {
+                            "actions": [],
+                            "id": "",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.TextView",
+                            "positionInParent": 3,
+                            "description": "android.widget.TextView @ 3",
+                            "box": {
+                              "left": 0,
+                              "top": 875,
+                              "width": 1080,
+                              "height": 57
+                            },
+                            "text": "You can contact me at"
+                          },
+                          {
+                            "actions": [
+                              "CLICK"
+                            ],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/aboutContactMe",
+                            "activity": "AboutActivity",
+                            "type": "android.widget.TextView",
+                            "positionInParent": 4,
+                            "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/aboutContactMe",
+                            "box": {
+                              "left": 316,
+                              "top": 943,
+                              "width": 448,
+                              "height": 57
+                            },
+                            "text": "avisekhon2@gmail.com"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "packageName": "com.avjindersinghsekhon.minimaltodo",
+  "activity": "AboutActivity"
+}
