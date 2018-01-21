@@ -102,7 +102,7 @@
                               "width": 709,
                               "height": 79
                             },
-                            "text": "WEDNESDAY"
+                            "text": "THURSDAY"
                           },
                           {
                             "actions": [],
@@ -183,7 +183,7 @@
                                   "width": 709,
                                   "height": 92
                                 },
-                                "text": "2016"
+                                "text": "2017"
                               }
                             ]
                           },
@@ -230,7 +230,7 @@
                                       "left": 206,
                                       "top": 813,
                                       "width": 667,
-                                      "height": 577
+                                      "height": 662
                                     },
                                     "text": "",
                                     "children": [
@@ -242,7 +242,7 @@
                                         "positionInParent": 0,
                                         "description": "android.view.View @ 0",
                                         "box": {
-                                          "left": 586,
+                                          "left": 681,
                                           "top": 960,
                                           "width": 95,
                                           "height": 85
@@ -257,7 +257,7 @@
                                         "positionInParent": 1,
                                         "description": "android.view.View @ 1",
                                         "box": {
-                                          "left": 681,
+                                          "left": 776,
                                           "top": 960,
                                           "width": 95,
                                           "height": 85
@@ -272,8 +272,8 @@
                                         "positionInParent": 2,
                                         "description": "android.view.View @ 2",
                                         "box": {
-                                          "left": 776,
-                                          "top": 960,
+                                          "left": 206,
+                                          "top": 1045,
                                           "width": 95,
                                           "height": 85
                                         },
@@ -287,7 +287,7 @@
                                         "positionInParent": 3,
                                         "description": "android.view.View @ 3",
                                         "box": {
-                                          "left": 206,
+                                          "left": 301,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -302,7 +302,7 @@
                                         "positionInParent": 4,
                                         "description": "android.view.View @ 4",
                                         "box": {
-                                          "left": 301,
+                                          "left": 396,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -317,7 +317,7 @@
                                         "positionInParent": 5,
                                         "description": "android.view.View @ 5",
                                         "box": {
-                                          "left": 396,
+                                          "left": 491,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -332,7 +332,7 @@
                                         "positionInParent": 6,
                                         "description": "android.view.View @ 6",
                                         "box": {
-                                          "left": 491,
+                                          "left": 586,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -347,7 +347,7 @@
                                         "positionInParent": 7,
                                         "description": "android.view.View @ 7",
                                         "box": {
-                                          "left": 586,
+                                          "left": 681,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -362,7 +362,7 @@
                                         "positionInParent": 8,
                                         "description": "android.view.View @ 8",
                                         "box": {
-                                          "left": 681,
+                                          "left": 776,
                                           "top": 1045,
                                           "width": 95,
                                           "height": 85
@@ -377,8 +377,8 @@
                                         "positionInParent": 9,
                                         "description": "android.view.View @ 9",
                                         "box": {
-                                          "left": 776,
-                                          "top": 1045,
+                                          "left": 206,
+                                          "top": 1130,
                                           "width": 95,
                                           "height": 85
                                         },
@@ -392,7 +392,7 @@
                                         "positionInParent": 10,
                                         "description": "android.view.View @ 10",
                                         "box": {
-                                          "left": 206,
+                                          "left": 301,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -407,7 +407,7 @@
                                         "positionInParent": 11,
                                         "description": "android.view.View @ 11",
                                         "box": {
-                                          "left": 301,
+                                          "left": 396,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -422,7 +422,7 @@
                                         "positionInParent": 12,
                                         "description": "android.view.View @ 12",
                                         "box": {
-                                          "left": 396,
+                                          "left": 491,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -437,7 +437,7 @@
                                         "positionInParent": 13,
                                         "description": "android.view.View @ 13",
                                         "box": {
-                                          "left": 491,
+                                          "left": 586,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -452,7 +452,7 @@
                                         "positionInParent": 14,
                                         "description": "android.view.View @ 14",
                                         "box": {
-                                          "left": 586,
+                                          "left": 681,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -467,7 +467,7 @@
                                         "positionInParent": 15,
                                         "description": "android.view.View @ 15",
                                         "box": {
-                                          "left": 681,
+                                          "left": 776,
                                           "top": 1130,
                                           "width": 95,
                                           "height": 85
@@ -482,8 +482,8 @@
                                         "positionInParent": 16,
                                         "description": "android.view.View @ 16",
                                         "box": {
-                                          "left": 776,
-                                          "top": 1130,
+                                          "left": 206,
+                                          "top": 1215,
                                           "width": 95,
                                           "height": 85
                                         },
@@ -497,7 +497,7 @@
                                         "positionInParent": 17,
                                         "description": "android.view.View @ 17",
                                         "box": {
-                                          "left": 206,
+                                          "left": 301,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -512,7 +512,7 @@
                                         "positionInParent": 18,
                                         "description": "android.view.View @ 18",
                                         "box": {
-                                          "left": 301,
+                                          "left": 396,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -527,7 +527,7 @@
                                         "positionInParent": 19,
                                         "description": "android.view.View @ 19",
                                         "box": {
-                                          "left": 396,
+                                          "left": 491,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -542,7 +542,7 @@
                                         "positionInParent": 20,
                                         "description": "android.view.View @ 20",
                                         "box": {
-                                          "left": 491,
+                                          "left": 586,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -557,7 +557,7 @@
                                         "positionInParent": 21,
                                         "description": "android.view.View @ 21",
                                         "box": {
-                                          "left": 586,
+                                          "left": 681,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -572,7 +572,7 @@
                                         "positionInParent": 22,
                                         "description": "android.view.View @ 22",
                                         "box": {
-                                          "left": 681,
+                                          "left": 776,
                                           "top": 1215,
                                           "width": 95,
                                           "height": 85
@@ -587,8 +587,8 @@
                                         "positionInParent": 23,
                                         "description": "android.view.View @ 23",
                                         "box": {
-                                          "left": 776,
-                                          "top": 1215,
+                                          "left": 206,
+                                          "top": 1300,
                                           "width": 95,
                                           "height": 85
                                         },
@@ -602,7 +602,7 @@
                                         "positionInParent": 24,
                                         "description": "android.view.View @ 24",
                                         "box": {
-                                          "left": 206,
+                                          "left": 301,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -617,7 +617,7 @@
                                         "positionInParent": 25,
                                         "description": "android.view.View @ 25",
                                         "box": {
-                                          "left": 301,
+                                          "left": 396,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -632,7 +632,7 @@
                                         "positionInParent": 26,
                                         "description": "android.view.View @ 26",
                                         "box": {
-                                          "left": 396,
+                                          "left": 491,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -647,7 +647,7 @@
                                         "positionInParent": 27,
                                         "description": "android.view.View @ 27",
                                         "box": {
-                                          "left": 491,
+                                          "left": 586,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -662,7 +662,7 @@
                                         "positionInParent": 28,
                                         "description": "android.view.View @ 28",
                                         "box": {
-                                          "left": 586,
+                                          "left": 681,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -677,7 +677,7 @@
                                         "positionInParent": 29,
                                         "description": "android.view.View @ 29",
                                         "box": {
-                                          "left": 681,
+                                          "left": 776,
                                           "top": 1300,
                                           "width": 95,
                                           "height": 85
@@ -692,31 +692,14 @@
                                         "positionInParent": 30,
                                         "description": "android.view.View @ 30",
                                         "box": {
-                                          "left": 776,
-                                          "top": 1300,
+                                          "left": 206,
+                                          "top": 1385,
                                           "width": 95,
                                           "height": 85
                                         },
                                         "text": ""
                                       }
                                     ]
-                                  },
-                                  {
-                                    "actions": [
-                                      "CLICK"
-                                    ],
-                                    "id": "",
-                                    "activity": "AddToDoActivity",
-                                    "type": "android.view.View",
-                                    "positionInParent": 1,
-                                    "description": "android.view.View @ 1",
-                                    "box": {
-                                      "left": 206,
-                                      "top": 1390,
-                                      "width": 667,
-                                      "height": 85
-                                    },
-                                    "text": ""
                                   }
                                 ]
                               }

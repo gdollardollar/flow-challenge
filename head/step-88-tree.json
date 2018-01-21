@@ -221,86 +221,485 @@
                                     "actions": [
                                       "CLICK"
                                     ],
-                                    "id": "com.avjindersinghsekhon.minimaltodo:id/month_text_view",
+                                    "id": "",
                                     "activity": "AddToDoActivity",
-                                    "type": "android.widget.TextView",
+                                    "type": "android.view.View",
                                     "positionInParent": 0,
-                                    "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/month_text_view",
+                                    "description": "android.view.View @ 0",
                                     "box": {
                                       "left": 206,
                                       "top": 813,
                                       "width": 667,
-                                      "height": 78
+                                      "height": 662
                                     },
-                                    "text": "2015"
-                                  },
-                                  {
-                                    "actions": [
-                                      "CLICK"
-                                    ],
-                                    "id": "com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "activity": "AddToDoActivity",
-                                    "type": "android.widget.TextView",
-                                    "positionInParent": 1,
-                                    "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "box": {
-                                      "left": 206,
-                                      "top": 891,
-                                      "width": 667,
-                                      "height": 168
-                                    },
-                                    "text": "2016"
-                                  },
-                                  {
-                                    "actions": [
-                                      "CLICK"
-                                    ],
-                                    "id": "com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "activity": "AddToDoActivity",
-                                    "type": "android.widget.TextView",
-                                    "positionInParent": 2,
-                                    "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "box": {
-                                      "left": 206,
-                                      "top": 1059,
-                                      "width": 667,
-                                      "height": 168
-                                    },
-                                    "text": "2017"
-                                  },
-                                  {
-                                    "actions": [
-                                      "CLICK"
-                                    ],
-                                    "id": "com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "activity": "AddToDoActivity",
-                                    "type": "android.widget.TextView",
-                                    "positionInParent": 3,
-                                    "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "box": {
-                                      "left": 206,
-                                      "top": 1227,
-                                      "width": 667,
-                                      "height": 168
-                                    },
-                                    "text": "2018"
-                                  },
-                                  {
-                                    "actions": [
-                                      "CLICK"
-                                    ],
-                                    "id": "com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "activity": "AddToDoActivity",
-                                    "type": "android.widget.TextView",
-                                    "positionInParent": 4,
-                                    "description": "android.widget.TextView @ com.avjindersinghsekhon.minimaltodo:id/month_text_view",
-                                    "box": {
-                                      "left": 206,
-                                      "top": 1395,
-                                      "width": 667,
-                                      "height": 80
-                                    },
-                                    "text": "2019"
+                                    "text": "",
+                                    "children": [
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 0,
+                                        "description": "android.view.View @ 0",
+                                        "box": {
+                                          "left": 681,
+                                          "top": 960,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 1,
+                                        "description": "android.view.View @ 1",
+                                        "box": {
+                                          "left": 776,
+                                          "top": 960,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 2,
+                                        "description": "android.view.View @ 2",
+                                        "box": {
+                                          "left": 206,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 3,
+                                        "description": "android.view.View @ 3",
+                                        "box": {
+                                          "left": 301,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 4,
+                                        "description": "android.view.View @ 4",
+                                        "box": {
+                                          "left": 396,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 5,
+                                        "description": "android.view.View @ 5",
+                                        "box": {
+                                          "left": 491,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 6,
+                                        "description": "android.view.View @ 6",
+                                        "box": {
+                                          "left": 586,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 7,
+                                        "description": "android.view.View @ 7",
+                                        "box": {
+                                          "left": 681,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 8,
+                                        "description": "android.view.View @ 8",
+                                        "box": {
+                                          "left": 776,
+                                          "top": 1045,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 9,
+                                        "description": "android.view.View @ 9",
+                                        "box": {
+                                          "left": 206,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 10,
+                                        "description": "android.view.View @ 10",
+                                        "box": {
+                                          "left": 301,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 11,
+                                        "description": "android.view.View @ 11",
+                                        "box": {
+                                          "left": 396,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 12,
+                                        "description": "android.view.View @ 12",
+                                        "box": {
+                                          "left": 491,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 13,
+                                        "description": "android.view.View @ 13",
+                                        "box": {
+                                          "left": 586,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 14,
+                                        "description": "android.view.View @ 14",
+                                        "box": {
+                                          "left": 681,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 15,
+                                        "description": "android.view.View @ 15",
+                                        "box": {
+                                          "left": 776,
+                                          "top": 1130,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 16,
+                                        "description": "android.view.View @ 16",
+                                        "box": {
+                                          "left": 206,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 17,
+                                        "description": "android.view.View @ 17",
+                                        "box": {
+                                          "left": 301,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 18,
+                                        "description": "android.view.View @ 18",
+                                        "box": {
+                                          "left": 396,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 19,
+                                        "description": "android.view.View @ 19",
+                                        "box": {
+                                          "left": 491,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 20,
+                                        "description": "android.view.View @ 20",
+                                        "box": {
+                                          "left": 586,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 21,
+                                        "description": "android.view.View @ 21",
+                                        "box": {
+                                          "left": 681,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 22,
+                                        "description": "android.view.View @ 22",
+                                        "box": {
+                                          "left": 776,
+                                          "top": 1215,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 23,
+                                        "description": "android.view.View @ 23",
+                                        "box": {
+                                          "left": 206,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 24,
+                                        "description": "android.view.View @ 24",
+                                        "box": {
+                                          "left": 301,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 25,
+                                        "description": "android.view.View @ 25",
+                                        "box": {
+                                          "left": 396,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 26,
+                                        "description": "android.view.View @ 26",
+                                        "box": {
+                                          "left": 491,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 27,
+                                        "description": "android.view.View @ 27",
+                                        "box": {
+                                          "left": 586,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 28,
+                                        "description": "android.view.View @ 28",
+                                        "box": {
+                                          "left": 681,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 29,
+                                        "description": "android.view.View @ 29",
+                                        "box": {
+                                          "left": 776,
+                                          "top": 1300,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      },
+                                      {
+                                        "actions": [],
+                                        "id": "",
+                                        "activity": "AddToDoActivity",
+                                        "type": "android.view.View",
+                                        "positionInParent": 30,
+                                        "description": "android.view.View @ 30",
+                                        "box": {
+                                          "left": 206,
+                                          "top": 1385,
+                                          "width": 95,
+                                          "height": 85
+                                        },
+                                        "text": ""
+                                      }
+                                    ]
                                   }
                                 ]
                               }
