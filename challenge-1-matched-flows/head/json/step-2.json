@@ -1,0 +1,342 @@
+{
+  "root": {
+    "actions": [],
+    "id": "",
+    "accessibilityId": "",
+    "activity": "SettingsActivity",
+    "type": "android.widget.FrameLayout",
+    "positionInParent": 0,
+    "description": "android.widget.FrameLayout @ 0",
+    "box": {
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 1920
+    },
+    "text": "",
+    "children": [
+      {
+        "actions": [],
+        "id": "",
+        "accessibilityId": "",
+        "activity": "SettingsActivity",
+        "type": "android.widget.LinearLayout",
+        "positionInParent": 0,
+        "description": "android.widget.LinearLayout @ 0",
+        "box": {
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "text": "",
+        "children": [
+          {
+            "actions": [],
+            "id": "",
+            "accessibilityId": "",
+            "activity": "SettingsActivity",
+            "type": "android.widget.FrameLayout",
+            "positionInParent": 0,
+            "description": "android.widget.FrameLayout @ 0",
+            "box": {
+              "left": 0,
+              "top": 72,
+              "width": 1080,
+              "height": 1848
+            },
+            "text": "",
+            "children": [
+              {
+                "actions": [],
+                "id": "com.avjindersinghsekhon.minimaltodo:id/action_bar_root",
+                "accessibilityId": "",
+                "activity": "SettingsActivity",
+                "type": "android.widget.LinearLayout",
+                "positionInParent": 0,
+                "description": "android.widget.LinearLayout @ com.avjindersinghsekhon.minimaltodo:id/action_bar_root",
+                "box": {
+                  "left": 0,
+                  "top": 72,
+                  "width": 1080,
+                  "height": 1848
+                },
+                "text": "",
+                "children": [
+                  {
+                    "actions": [],
+                    "id": "android:id/content",
+                    "accessibilityId": "",
+                    "activity": "SettingsActivity",
+                    "type": "android.widget.FrameLayout",
+                    "positionInParent": 0,
+                    "description": "android.widget.FrameLayout @ android:id/content",
+                    "box": {
+                      "left": 0,
+                      "top": 72,
+                      "width": 1080,
+                      "height": 1848
+                    },
+                    "text": "",
+                    "children": [
+                      {
+                        "actions": [],
+                        "id": "",
+                        "accessibilityId": "",
+                        "activity": "SettingsActivity",
+                        "type": "android.widget.RelativeLayout",
+                        "positionInParent": 0,
+                        "description": "android.widget.RelativeLayout @ 0",
+                        "box": {
+                          "left": 0,
+                          "top": 72,
+                          "width": 1080,
+                          "height": 1848
+                        },
+                        "text": "",
+                        "children": [
+                          {
+                            "actions": [],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/toolbar",
+                            "accessibilityId": "",
+                            "activity": "SettingsActivity",
+                            "type": "android.view.ViewGroup",
+                            "positionInParent": 0,
+                            "description": "android.view.ViewGroup @ com.avjindersinghsekhon.minimaltodo:id/toolbar",
+                            "box": {
+                              "left": 0,
+                              "top": 72,
+                              "width": 1080,
+                              "height": 168
+                            },
+                            "text": "",
+                            "children": [
+                              {
+                                "actions": [
+                                  "CLICK"
+                                ],
+                                "id": "",
+                                "accessibilityId": "Navigate up",
+                                "activity": "SettingsActivity",
+                                "type": "android.widget.ImageButton",
+                                "positionInParent": 0,
+                                "description": "android.widget.ImageButton @ 0",
+                                "box": {
+                                  "left": 0,
+                                  "top": 72,
+                                  "width": 168,
+                                  "height": 168
+                                },
+                                "text": ""
+                              },
+                              {
+                                "actions": [],
+                                "id": "",
+                                "accessibilityId": "",
+                                "activity": "SettingsActivity",
+                                "type": "android.widget.TextView",
+                                "positionInParent": 0,
+                                "description": "android.widget.TextView @ 0",
+                                "box": {
+                                  "left": 180,
+                                  "top": 115,
+                                  "width": 215,
+                                  "height": 81
+                                },
+                                "text": "Minimal"
+                              }
+                            ]
+                          },
+                          {
+                            "actions": [],
+                            "id": "com.avjindersinghsekhon.minimaltodo:id/mycontent",
+                            "accessibilityId": "",
+                            "activity": "SettingsActivity",
+                            "type": "android.widget.LinearLayout",
+                            "positionInParent": 0,
+                            "description": "android.widget.LinearLayout @ com.avjindersinghsekhon.minimaltodo:id/mycontent",
+                            "box": {
+                              "left": 0,
+                              "top": 240,
+                              "width": 1080,
+                              "height": 1680
+                            },
+                            "text": "",
+                            "children": [
+                              {
+                                "actions": [],
+                                "id": "",
+                                "accessibilityId": "",
+                                "activity": "SettingsActivity",
+                                "type": "android.widget.LinearLayout",
+                                "positionInParent": 0,
+                                "description": "android.widget.LinearLayout @ 0",
+                                "box": {
+                                  "left": 0,
+                                  "top": 240,
+                                  "width": 1080,
+                                  "height": 1680
+                                },
+                                "text": "",
+                                "children": [
+                                  {
+                                    "actions": [],
+                                    "id": "android:id/list_container",
+                                    "accessibilityId": "",
+                                    "activity": "SettingsActivity",
+                                    "type": "android.widget.FrameLayout",
+                                    "positionInParent": 0,
+                                    "description": "android.widget.FrameLayout @ android:id/list_container",
+                                    "box": {
+                                      "left": 0,
+                                      "top": 240,
+                                      "width": 1080,
+                                      "height": 1680
+                                    },
+                                    "text": "",
+                                    "children": [
+                                      {
+                                        "actions": [],
+                                        "id": "android:id/list",
+                                        "accessibilityId": "",
+                                        "activity": "SettingsActivity",
+                                        "type": "android.widget.ListView",
+                                        "positionInParent": 0,
+                                        "description": "android.widget.ListView @ android:id/list",
+                                        "box": {
+                                          "left": 0,
+                                          "top": 240,
+                                          "width": 1080,
+                                          "height": 1680
+                                        },
+                                        "text": "",
+                                        "children": [
+                                          {
+                                            "actions": [
+                                              "CLICK"
+                                            ],
+                                            "id": "",
+                                            "accessibilityId": "",
+                                            "activity": "SettingsActivity",
+                                            "type": "android.widget.LinearLayout",
+                                            "positionInParent": 0,
+                                            "description": "android.widget.LinearLayout @ 0",
+                                            "box": {
+                                              "left": 0,
+                                              "top": 240,
+                                              "width": 1080,
+                                              "height": 218
+                                            },
+                                            "text": "",
+                                            "children": [
+                                              {
+                                                "actions": [],
+                                                "id": "",
+                                                "accessibilityId": "",
+                                                "activity": "SettingsActivity",
+                                                "type": "android.widget.RelativeLayout",
+                                                "positionInParent": 0,
+                                                "description": "android.widget.RelativeLayout @ 0",
+                                                "box": {
+                                                  "left": 48,
+                                                  "top": 240,
+                                                  "width": 840,
+                                                  "height": 218
+                                                },
+                                                "text": "",
+                                                "children": [
+                                                  {
+                                                    "actions": [],
+                                                    "id": "android:id/title",
+                                                    "accessibilityId": "",
+                                                    "activity": "SettingsActivity",
+                                                    "type": "android.widget.TextView",
+                                                    "positionInParent": 0,
+                                                    "description": "android.widget.TextView @ android:id/title",
+                                                    "box": {
+                                                      "left": 48,
+                                                      "top": 288,
+                                                      "width": 248,
+                                                      "height": 65
+                                                    },
+                                                    "text": "Night Mode"
+                                                  },
+                                                  {
+                                                    "actions": [],
+                                                    "id": "android:id/summary",
+                                                    "accessibilityId": "",
+                                                    "activity": "SettingsActivity",
+                                                    "type": "android.widget.TextView",
+                                                    "positionInParent": 1,
+                                                    "description": "android.widget.TextView @ android:id/summary",
+                                                    "box": {
+                                                      "left": 48,
+                                                      "top": 353,
+                                                      "width": 324,
+                                                      "height": 57
+                                                    },
+                                                    "text": "Night mode is off"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "actions": [],
+                                                "id": "android:id/widget_frame",
+                                                "accessibilityId": "",
+                                                "activity": "SettingsActivity",
+                                                "type": "android.widget.LinearLayout",
+                                                "positionInParent": 0,
+                                                "description": "android.widget.LinearLayout @ android:id/widget_frame",
+                                                "box": {
+                                                  "left": 888,
+                                                  "top": 240,
+                                                  "width": 144,
+                                                  "height": 218
+                                                },
+                                                "text": "",
+                                                "children": [
+                                                  {
+                                                    "actions": [
+                                                      "CLICK"
+                                                    ],
+                                                    "id": "android:id/checkbox",
+                                                    "accessibilityId": "",
+                                                    "activity": "SettingsActivity",
+                                                    "type": "android.widget.CheckBox",
+                                                    "positionInParent": 0,
+                                                    "description": "android.widget.CheckBox @ android:id/checkbox",
+                                                    "box": {
+                                                      "left": 936,
+                                                      "top": 301,
+                                                      "width": 96,
+                                                      "height": 96
+                                                    },
+                                                    "text": ""
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "packageName": "com.avjindersinghsekhon.minimaltodo",
+  "activity": "SettingsActivity"
+}

@@ -1,38 +1,44 @@
 # Flow challenge
 
-This repository is a challenge to solve flows comparison.
+This repository consists of 2 challenges to approach flows comparison.
 
-## Content
+In both challenges, the goal is to compare 2 versions `head` and `base` of the same app against each other.
 
-This repo contains 2 folders, `base` and `head`, which correspond to the explorations of 2 versions of the same app.
-Each folder consists of:
+It's up to you on how you want to present the results, but we are specifically interested by the algorithmic approach.
+
+## Challenges structure
+
+Both challenges follow the same structure.
+They contain 2 subfolders `head` and `base`, each corresponding to the outcome of running a different version of the app.
+Each subfolder contains:
+
 - `flows.json` which represents a collection of flows, each defining a sequence of steps, from `start` to `end`.
 - 3 representations for each step
-  * `step-{step}-original-tree.xml` is the xml structure as retrieved directly from Android. It represents the elements on screen.
-  * `step-{step}-tree.json` is the normalization of this xml structure into our proprietary structure.
-One thing to notice is that it includes the activity name (in the Android sense) which displayed this screen.
-  * `step-{step}-screen.png` is the snapshot of the device screen at the time.
+  * `xml/step-{step}.xml` is the xml structure as retrieved from Android. It represents the elements on screen.
+  * `json/step-{step}.json` is the normalization of this xml structure into our proprietary structure.
+One thing to notice is that it includes the activity name (in the Android sense) which rendered this screen.
+  * `png/step-{step}.png` is the snapshot of the device screen at the time.
 
-In short, this means that during the exploration, we started a flow at step `start`, we triggered some interaction which led to `start + 1` 
-and we considered the flow to be terminated at the step `end`, at which point we started exploring another flow.
+## Challenge #1: Matched flows
 
-## Goals
+In the first challenge `challenge-1-matched-flows`, the datasets are clean.
+The flows in `head` and `base` match.
+However, as you can notice, the flows #3 and #4 do not match in length in both versions.
 
-Given this data, the broad goal is to compare the 2 versions of the app, `head` versus `base`.
+**Things to look for**
+- Analyze the differences between screens, in the most "intelligible" way
+- Align screens that match for flows with different lengths
 
-The first 3 flows are the same in `head` and `base`, which means that you can directly do screen-for-screen comparisons.
+## Challenge #2: Fuzzy match
 
-However the other flows are not ordered, and some are missing either from `head` or `base`.
+In the second challenge `challenge-2-fuzzy-match`, the dataset is way messier.
 
-Potential things to aim for:
-- analyze the difference between 2 screens:
+Most flows (with names `Flow ??`) are unordered, i.e the flow at position 4 in `head` might match with any
+other flow from `base`. It might not even have a corresponding flow in `base`.
+Moreover, some steps did not complete properly, e.g. some screens are not "functionally" matching from `base` compared to `head`.
+An example is the `step-2`, which was not reached properly in `head`.
 
-**appearance change**: the screen is looking different at a given step, but is structurally the same (e.g. one icon has been added, etc..)
+**Things to look for**
+- find a way to still match flows one with another
 
-**behavioral change**: the flow is different in its functionality, e.g. it does not follow the same sequence of screens
-(e.g. flow A goes from list view to detail view at step 1 vs. flow B remains on list view at step 1)
-
-- match flows from `head` with the corresponding flows from `base`.
-
-These goals are flexible, and you should consider the problem open. Keep in mind though that what we want to do is delivering, 
-in the most meaningful and least noisy way, the UI and UX differences that are introduced by a new version of an app.
+An approach can be to compute the likelihood that 2 flows are in fact representing the same functionality.
