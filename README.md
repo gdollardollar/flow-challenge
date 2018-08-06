@@ -8,8 +8,10 @@ It's up to you on how you want to present the results, but we are specifically i
 
 ## Submit
 
-Please add @laurentsigal as a contributor to your github repository.
+Please add [@laurentsigal](https://github.com/laurentsigal) as a contributor to your github repository.
+
 Otherwise you can simply host the code anywhere and give us a link to the zip file.
+
 Do not make your repository public.
 
 ## Challenges structure
