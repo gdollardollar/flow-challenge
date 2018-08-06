@@ -6,6 +6,12 @@ In both challenges, the goal is to compare 2 versions `head` and `base` of the s
 
 It's up to you on how you want to present the results, but we are specifically interested by the algorithmic approach.
 
+## Submit
+
+Please add @laurentsigal as a contributor to your github repository.
+Otherwise you can simply host the code anywhere and give us a link to the zip file.
+Do not make your repository public.
+
 ## Challenges structure
 
 Both challenges follow the same structure.
