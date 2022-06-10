@@ -1,50 +1,72 @@
 # Flow challenge
 
-This repository consists of 2 challenges to approach flows comparison.
-
-In both challenges, the goal is to compare 2 versions `head` and `base` of the same app against each other.
-
-It's up to you on how you want to present the results, but we are specifically interested by the algorithmic approach.
+This challenge offers a good insight into one of the core problems we solve at Waldo: how to 
+properly match together different screens and user journeys in a mobile app.
 
 ## Submit
 
-Please zip your repo once your work is complete and send it to developers@waldo.io.
+Please zip your work once it's complete and send it to developers@waldo.com.
 
-Do not make your repository public.
+## The goal
 
-## Challenges structure
+You are given the results from the extraction of different flows, on 2 different versions of an app,
+that we called `base` and `head`.
+A flow is a sequence of user interactions that start from an app open, and where each step is the 
+result of a user tap on the previous step.
 
-Both challenges follow the same structure.
-They contain 2 subfolders `head` and `base`, each corresponding to the outcome of running a different version of the app.
-Each subfolder contains:
-
-- `flows.json` which represents a collection of flows, each defining a sequence of steps, from `start` to `end`.
+An extraction is formatted like this:
+- `flows.json`: the collection of flows, each defining a sequence of steps, from `start` to `end`.
 - 3 representations for each step
   * `xml/step-{step}.xml` is the xml structure as retrieved from Android. It represents the elements on screen.
   * `json/step-{step}.json` is the normalization of this xml structure into our proprietary structure.
 One thing to notice is that it includes the activity name (in the Android sense) which rendered this screen.
   * `png/step-{step}.png` is the snapshot of the device screen at the time.
 
-## Challenge #1: Matched flows
+For instance, `head/png/step-1.png` is the second step of the `Flow #1` and was obtained after the
+user tapped on the 3 dots on `head/png/step-0.png` (no need to look for it, the information about 
+the tap is not captured in the results and is not relevant to the problem here).
 
-In the first challenge `challenge-1-matched-flows`, the datasets are clean.
-The flows in `head` and `base` match.
-However, as you can notice, the flows #3 and #4 do not match in length in both versions.
+Your goal is to best match the steps from `base` and `head`, while preserving their order.
+For instance, for the `Flow #1`, this is a correct mapping:
+```
+base.step-0 <-> head.step-0
+base.step-1 <-> head.step-1
+base.step-2 <-> head.step-2
+base.step-3 <-> head.step-3
+base.step-4 <-> head.step-4
+```
 
-**Things to look for**
-- Analyze the differences between screens, in the most "intelligible" way
-- Align screens that match for flows with different lengths
+This is also a correct mapping:
+```
+base.step-0 <-> head.step-0
+base.step-1 <-> head.step-2
+base.step-2 <-> head.step-3
+base.step-4 <-> head.step-4
+```
 
-## Challenge #2: Fuzzy match
+but this is not a correct mapping:
+```
+base.step-0 <-> head.step-0
+base.step-1 <-> head.step-2
+base.step-2 <-> head.step-1
+base.step-3 <-> head.step-3
+base.step-4 <-> head.step-4
+```
+because the steps of head are not in an increasing order.
 
-In the second challenge `challenge-2-fuzzy-match`, the dataset is way messier.
+## Guidelines
 
-Most flows (with names `Flow ??`) are unordered, i.e the flow at position 4 in `head` might match with any
-other flow from `base`. It might not even have a corresponding flow in `base`.
-Moreover, some steps did not complete properly, e.g. some screens are not "functionally" matching from `base` compared to `head`.
-An example is the `step-2`, which was not reached properly in `head`.
+This is purposefully a pretty open-ended problem, and most certainly one that you could spend way 
+more than a few hours on.
 
-**Things to look for**
-- find a way to still match flows one with another
+This should not scare you, we're not trying to set you up for failure here. Instead, we're very 
+interested in how you **approach** this problem.
 
-An approach can be to compute the likelihood that 2 flows are in fact representing the same functionality.
+That being said, we want to **see** some things in your submission. So we strongly encourage you to 
+start small but try to get deliverables along the way. You should not care about code quality, it 
+does not matter, be scrappy and explore!
+
+And there's a good chance that it brings a ton of ideas to mind. Please share them with us, we 
+recommend that you spend ~30 minutes capturing your thoughts in a quick doc before submitting to us.
+
+Good luck, and have fun!
