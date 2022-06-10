@@ -26,7 +26,11 @@ For instance, `head/png/step-1.png` is the second step of the `Flow #1` and was 
 user tapped on the 3 dots on `head/png/step-0.png` (no need to look for it, the information about 
 the tap is not captured in the results and is not relevant to the problem here).
 
-Your goal is to best match the steps from `base` and `head`, while preserving their order.
+| head.step-0      | head.step-1                                                         |
+|-----------|---------------------------------------------------------------------|
+| <img src="data/head/png/step-0.png" alt="head.step-0" width="200"/>    | <img src="data/head/png/step-1.png" alt="head.step-1" width="200"/> |
+
+Your goal is to best match the steps of each flow from `base` and `head`, while preserving their order.
 For instance, for the `Flow #1`, this is a correct mapping:
 ```
 base.step-0 <-> head.step-0
