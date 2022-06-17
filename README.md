@@ -61,7 +61,7 @@ because the steps of head are not in an increasing order.
 ## Guidelines
 
 This is purposefully a pretty open-ended problem, and most certainly one that you could spend way 
-more than a few hours on.
+more than a few hours on. And yet, we recommmend spending no more than 5 hours on it.
 
 This should not scare you, we're not trying to set you up for failure here. Instead, we're very 
 interested in how you **approach** this problem.
