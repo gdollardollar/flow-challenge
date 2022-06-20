@@ -66,8 +66,8 @@ more than a few hours on. And yet, we recommmend spending no more than 5 hours o
 This should not scare you, we're not trying to set you up for failure here. Instead, we're very 
 interested in how you **approach** this problem.
 
-That being said, we want to **see** some things in your submission. So we strongly encourage you to 
-start small but try to get deliverables along the way. You should not care about code quality, it 
+That being said, we want to **see** some things in your submission (and the more visual, the better).
+So we strongly encourage you to start small but try to get deliverables along the way. You should not care about code quality, it 
 does not matter, be scrappy and explore!
 
 And there's a good chance that it brings a ton of ideas to mind. Please share them with us, we 
