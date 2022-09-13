@@ -5,7 +5,8 @@ properly match together different screens and user journeys in a mobile app.
 
 ## Submit
 
-Please zip your work once it's complete and send it to developers@waldo.com.
+You should have received an upload link from us.
+Please zip your work once it's complete and upload it there.
 
 ## The goal
 
