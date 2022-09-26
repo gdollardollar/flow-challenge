@@ -1,8 +1,9 @@
+import { compareStepImages } from "./images";
 import { findBestMatch } from "./nodes/scores";
 import { Flow, IndexMatch, Step } from "./types";
 import { findLeafNodes, flowSteps, readFlows } from "./utils";
 
-function compareSteps(s1: Step, s2: Step) {
+async function compareSteps(s1: Step, s2: Step) {
   let { score } = findBestMatch(findLeafNodes(s1.root), findLeafNodes(s2.root));
 
   score *= 0.4; // nodes account for 40% of total score
@@ -15,21 +16,25 @@ function compareSteps(s1: Step, s2: Step) {
     score += 20;
   }
 
-  // TODO: add image score, account for 40%
+  score += (await compareStepImages(s1, s2)) * 40;
+
   return score;
 }
 
-function maxScore(step: Step, others: Step[]): { score: number; idx: number } {
-  return others.reduce(
-    (previous, s, j) => {
-      const score = compareSteps(step, s);
-      return score > previous.score ? { score, idx: j } : previous;
-    },
-    { score: 0, idx: -1 }
-  );
+async function maxScore(step: Step, others: Step[]) {
+  const out = { score: 0, idx: -1 };
+  for (let j = 0; j < others.length; j++) {
+    const score = await compareSteps(step, others[j]);
+    if (score > out.score) {
+      out.score = score;
+      out.idx = j;
+    }
+  }
+
+  return out;
 }
 
-function findMatch(base: Flow, head: Flow) {
+async function findMatch(base: Flow, head: Flow) {
   const baseSteps = flowSteps(base);
   const headSteps = flowSteps(head);
 
@@ -41,8 +46,14 @@ function findMatch(base: Flow, head: Flow) {
   while (baseIdx < baseSteps.length && headIdx < headSteps.length) {
     // We find the maximum score of the first element of each array with
     // an element of the other array
-    const baseMaxScore = maxScore(baseSteps[baseIdx], headSteps.slice(headIdx));
-    const headMaxScore = maxScore(headSteps[headIdx], baseSteps.slice(baseIdx));
+    const baseMaxScore = await maxScore(
+      baseSteps[baseIdx],
+      headSteps.slice(headIdx)
+    );
+    const headMaxScore = await maxScore(
+      headSteps[headIdx],
+      baseSteps.slice(baseIdx)
+    );
 
     // TODO: add threshold when there are no good matches ?
     if (baseMaxScore.score > headMaxScore.score) {
@@ -61,7 +72,7 @@ function findMatch(base: Flow, head: Flow) {
   return match;
 }
 
-function main() {
+async function main() {
   const base = readFlows("base");
   const head = readFlows("head");
 
@@ -73,9 +84,9 @@ function main() {
     const b = base[i];
     const h = head[i];
     console.log(`------------------------------`);
-    console.log(`Finding matches in flows ${b.name} : ${h.name}`);
+    console.log(`Finding matches in ${b.name} <-> ${h.name}`);
     console.log(`(Base: ${b.start}/${b.end}, Head: ${h.start}/${h.end})\n`);
-    const match = findMatch(b, h);
+    const match = await findMatch(b, h);
     Object.entries(match).forEach(([k, v]) => {
       console.log(`base.step-${k} <-> head.step-${v}`);
     });

@@ -20,6 +20,7 @@
         "preset": "ts-jest"
     },
     "dependencies": {
+        "jimp": "^0.16.2",
         "lodash": "^4.17.21"
     }
 }

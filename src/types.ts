@@ -1,4 +1,4 @@
-import { FlowKind } from "./utils";
+export type FlowKind = "base" | "head";
 
 export interface Flow {
   start: number;
@@ -12,6 +12,7 @@ export interface Step {
   packageName: string;
   activity: string;
   index: number;
+  kind: FlowKind;
 }
 
 export interface ViewNode {
@@ -51,3 +52,6 @@ export interface ReversedNode extends ViewNode {
 }
 
 export type LeafNode = Omit<ReversedNode, "children">;
+
+// Key is the color value ([0, 255]), value is the count of occurences
+export type ColorHistogram = Record<number, number>;

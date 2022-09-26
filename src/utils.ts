@@ -5,6 +5,7 @@ import { range } from "lodash";
 
 import type {
   Flow,
+  FlowKind,
   IndexMatch,
   LeafNode,
   ReversedNode,
@@ -12,7 +13,9 @@ import type {
   ViewNode,
 } from "./types";
 
-export type FlowKind = "base" | "head";
+export function dataDirectory() {
+  return join(__dirname, "../data");
+}
 
 export function readJSON(path: string) {
   const content = readFileSync(path, "utf-8");
@@ -35,6 +38,7 @@ export function readStep(kind: FlowKind, index: number): Step {
   return {
     ...readJSON(join(__dirname, `../data/${kind}/json/step-${index}.json`)),
     index,
+    kind,
   };
 }
 
