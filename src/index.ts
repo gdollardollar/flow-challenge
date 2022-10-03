@@ -1,10 +1,11 @@
 import { compareStepImages } from "./images";
-import { findBestMatch } from "./nodes/scores";
+import { smarterScoring } from "./nodes/scores";
 import { Flow, IndexMatch, Step } from "./types";
 import { findLeafNodes, flowSteps, readFlows } from "./utils";
 
 async function compareSteps(s1: Step, s2: Step) {
-  let { score } = findBestMatch(findLeafNodes(s1.root), findLeafNodes(s2.root));
+  // console.log(`Comparing b${s1.index} and h${s2.index}`);
+  let score = smarterScoring(findLeafNodes(s1.root), findLeafNodes(s2.root));
 
   score *= 0.4; // nodes account for 40% of total score
 
@@ -16,7 +17,7 @@ async function compareSteps(s1: Step, s2: Step) {
     score += 20;
   }
 
-  score += (await compareStepImages(s1, s2)) * 40;
+  // score += (await compareStepImages(s1, s2)) * 40;
 
   return score;
 }

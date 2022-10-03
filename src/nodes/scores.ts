@@ -31,7 +31,10 @@ export function computeScore(n1s: ViewNode[], n2s: ViewNode[], m: IndexMatch) {
 }
 
 export function findBestMatch(n1s: ViewNode[], n2s: ViewNode[]): ScoredMatch {
+  // const now = Date.now();
   const possibles = allMatches(range(n1s.length), range(n2s.length));
+  // console.log("All Matches", Date.now() - now);
+  // console.log("Permutations", possibles.length);
 
   return possibles.reduce(
     (sm, match) => {
@@ -41,3 +44,69 @@ export function findBestMatch(n1s: ViewNode[], n2s: ViewNode[]): ScoredMatch {
     { match: {}, score: 0 } as ScoredMatch
   );
 }
+
+// Finds and removes best match between the 2 node arrays and return the score
+export function smarterScoring(n1s: ViewNode[], n2s: ViewNode[]): number {
+  const scores = new Array<number>(n1s.length * n2s.length);
+  n1s.forEach((n1, i) => {
+    n2s.forEach((n2, j) => {
+      scores[i * n2s.length + j] = compareNodes(n1, n2);
+    });
+  });
+
+  const done1 = new Set<number>();
+  const done2 = new Set<number>();
+  let score = 0;
+
+  while (done1.size < n1s.length && done2.size < n2s.length) {
+    const { idx: maxIndex, score: maxScore } = scores.reduce(
+      ({ idx, score }, mValue, mIndex) => {
+        const i = Math.floor(mIndex / n2s.length);
+        const j = mIndex % n2s.length;
+
+        if (done1.has(i) || done2.has(j)) {
+          return { idx, score };
+        }
+
+        if (score < mValue) {
+          return { score: mValue, idx: mIndex };
+        }
+        return { idx, score };
+      },
+      { idx: 0, score: -1 }
+    );
+
+    const i = Math.floor(maxIndex / n2s.length);
+    const j = maxIndex % n2s.length;
+
+    done1.add(i);
+    done2.add(j);
+
+    score += maxScore;
+
+    // console.log(
+    //   `Matching ${i}/${n1s[i].text} with ${j}/${n2s[j].text}, Score: ${maxScore}\n`
+    // );
+  }
+
+  return score / done1.size;
+}
+
+// export function scoreBestMatches(
+//   n1s: ViewNode[],
+//   n2s: ViewNode[]
+// ): ScoredMatch {
+//   while (n1s.length > 0 && n2s.length > 0) {}
+//   // const now = Date.now();
+//   const possibles = allMatches(range(n1s.length), range(n2s.length));
+//   // console.log("All Matches", Date.now() - now);
+//   console.log("Permutations", possibles.length);
+
+//   return possibles.reduce(
+//     (sm, match) => {
+//       const score = computeScore(n1s, n2s, match);
+//       return score > sm.score ? { match, score } : sm;
+//     },
+//     { match: {}, score: 0 } as ScoredMatch
+//   );
+// }
